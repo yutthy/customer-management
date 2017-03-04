@@ -15,7 +15,7 @@ This project includes:
 
 1. Clone project from this repository:
 <pre>
-git clone https://github.com/hangsopheak/customer-managment-system.git
+git clone git@github.com:yutthy/customer-management.git
 </pre>
 
 2. Import database from customer-management.sql in the root of project
