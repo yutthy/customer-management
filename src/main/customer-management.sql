@@ -10,6 +10,11 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+-- Dumping database structure for customer_managment
+CREATE DATABASE IF NOT EXISTS `customer_managment` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `customer_managment`;
+
+
 -- Dumping structure for table customer_managment.customer
 CREATE TABLE IF NOT EXISTS `customer` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -25,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `customer` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 
--- Dumping data for table customer_managment.customer: ~2 rows (approximately)
+-- Dumping data for table customer_managment.customer: ~1 rows (approximately)
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
 INSERT INTO `customer` (`id`, `first_name`, `last_name`, `gender`, `dob`, `email`, `address`, `phone`, `created_date`, `modified_date`) VALUES
 	(14, 'Sok', 'Dara', 1, '1992-02-25', 'sokdara@gmail.com', 'Phnom Penh', '011 111 111', '2017-03-04 01:53:30', '2017-03-04 02:04:10'),
